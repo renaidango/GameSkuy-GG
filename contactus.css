@@ -1,0 +1,92 @@
+body {
+    background-image: url(background/bgcontact.png);
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+*{
+    margin: 0;
+    text-decoration: none;  
+    list-style-type: none;
+}
+
+header{
+
+    margin-right: 0px;
+    height: 80px; 
+    width: 100%;
+    font-size: x-large;
+
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: black;
+}
+.logo{
+    margin-top: 17px;
+    width: 60px;
+    height: 60px;
+}
+.home{
+    margin-top: 20px;
+    font-size: larger;
+}
+.logout{
+    margin-top: 20px;
+    font-size: larger;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+p{
+    margin-top: 5px;
+}
+button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 2em;
+    width: 3cm;
+    height: 0.8cm;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    color: #ffff;
+    background: hsla(238, 55%, 58%, 1);
+
+background: linear-gradient(315deg, hsla(238, 55%, 58%, 1) 16%, hsla(214, 58%, 56%, 1) 70%, hsla(187, 62%, 52%, 1) 100%);
+
+background: -moz-linear-gradient(315deg, hsla(238, 55%, 58%, 1) 16%, hsla(214, 58%, 56%, 1) 70%, hsla(187, 62%, 52%, 1) 100%);
+
+background: -webkit-linear-gradient(315deg, hsla(238, 55%, 58%, 1) 16%, hsla(214, 58%, 56%, 1) 70%, hsla(187, 62%, 52%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#595CCF", endColorstr="#4C86D0", GradientType=1 );
+}
+
+
+.isi{
+    color: #ffff;
+    position: absolute;
+    margin-left: 2cm;
+    margin-top: 1cm;
+    width: 450px;
+}
+.information{
+    margin-left: 18cm;
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #C6C6C6;
+  font-size: x-large;
+}
