@@ -1,0 +1,356 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+body {
+    background-image: url(bgtest2.jpg);
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
+*{
+    
+    margin: 0;
+    text-decoration: none;  
+    list-style-type: none;
+}
+
+header{
+    background: linear-gradient(#1d1b1b,#333333);
+    margin-right: 80px;
+    height: 80px; 
+    width: 100%;
+    align-items: center;
+    font-size: x-large;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.493), 0 2px 4px 0 rgba(0, 0, 0, 0.493);
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+
+/*
+konten header
+*/
+
+a{
+    color: white;
+}
+a:hover{
+    color: black;
+}
+.logo{
+    margin-top: 17px;
+    width: 45px;
+    height: 45px;
+}
+.cari2{
+    margin-top: 25px;
+    position: absolute;
+    cursor: pointer;
+}
+.home{
+    margin-top: 20px;
+    font-size: larger;
+}
+.anjae{
+    display: none;
+}
+.search{
+    margin-top: 25px;
+    margin-left: 5px;
+    position: absolute;
+    text-align: left;
+    text-decoration: underline;
+    font-size: large;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.kontak{
+    margin-top: 20px;
+    font-size: larger;
+}
+.riwayat{
+    margin-top: 20px;
+    font-size: larger;
+}
+.logout{
+    margin-top: 20px;
+    font-size: larger;
+}
+
+
+
+
+
+/*Form Topup*/
+.check{
+    position: absolute;
+    z-index: 1;
+    width: 5%
+}
+
+.footer{
+width: 500px;
+height: 18px;
+background: transparent;
+}
+
+
+.langkah1{
+    margin-top: 7cm;
+    margin-left: 9cm;
+    background: #494949;
+    width: 15cm;
+    height: 9cm;
+    position: relative;
+    border-radius: 2em;
+}
+
+.langkah2{
+    margin-top: 1cm;
+    margin-left: 9cm;
+    background: #494949;
+    width: 15cm;
+    height: 7cm;
+    position: absolute;
+    border-radius: 2em;
+}
+
+.langkah3{
+    margin-top: 1cm;
+    margin-left: 9cm;
+    background: #494949;
+    width: 15cm;
+    height: 15cm;
+    position: relative;
+    border-radius: 2em;
+}
+
+.langkah4{
+    margin-top: 1cm;
+    margin-left: 9cm;
+    background: #494949;
+    width: 15cm;
+    height: 4.5cm;
+    position: relative;
+    border-radius: 2em;
+}
+
+.paketbintang{
+    margin-top: 4.8cm;
+    margin-left: 9cm;
+    background: #494949;/*#494949*/
+    width: 15cm;
+    height: 7cm;
+    position: relative;
+    border-radius: 2em;
+    z-index: 1;
+    display: block;
+}
+.star-select{
+    margin-top: 1cm;
+    margin-left: 9cm;
+    background: #494949;/*#494949*/
+    width: 15cm;
+    height: 4.5cm;
+    position: relative;
+    border-radius: 2em;
+    display: none;
+}
+.paketgm{
+    margin-top: 4.8cm;
+    margin-left: 9cm;
+    background: #494949;/*#494949*/
+    width: 15cm;
+    height: 17cm;
+    position: relative;
+    border-radius: 2em;
+    z-index: 1;
+    display: none;
+}
+
+
+.tag1{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 20px;
+    background: #252525;
+    text-align: center;
+    
+}
+
+.tag2{
+    margin-left: 1.05cm;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: #252525;
+    text-align: center;
+    
+}
+.tag3{
+    margin-top: 1.06cm;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: #252525;
+    text-align: center;
+}
+
+.tagmethod1{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    background: #252525;
+    text-align: center;
+}
+
+.tagmethod2{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    border-radius: 20px;
+    background: #252525;
+    text-align: center;
+}
+
+input{
+    background: #0000008e;
+    color: #ffff;
+    font-size: small;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    position: absolute;
+}
+#options{
+    background: #0000008e;
+    color: #ffff;
+    font-size: small;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    position: absolute;
+}
+/*Pilihan Nominal*/
+
+
+.per-star, .per-star1{
+    position: absolute;
+    background: #444343;
+    border: solid #000000 1px;
+    color: #ffff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 1.5em;
+    width: 6.5cm;
+    height: 1.5cm;
+    transition: 0.3s;
+}
+
+.paket{
+    position: absolute;
+    margin-top: 1cm;
+    margin-left: 0.55cm;
+    background: #444343;
+    border: solid #000000 1px;
+    color: #ffff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 1.5em;
+    width: 5cm;
+    height: 1.2cm;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.nominal{
+    position: absolute;
+    background: #444343;
+    width: 120px;
+    height: 170px;
+    border-radius: 1.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: #ffff;
+    border: solid #000000 1px;
+    transition: border 0.3s;
+}
+
+/*Pilihan Pembayaran*/
+
+.pembayaran{
+    position: absolute;
+    background: #444343;
+    width: 485px;
+    height: 120px;
+    border-radius: 1.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    color: #ffff;
+    border: solid #000000 1px;
+}
+
+
+
+/*Confirm Payment*/
+
+.confirmation{
+    color: #ffff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+}
+.totalpembayaran{
+    margin-top: 3.7cm;
+    margin-left: 5cm;
+    color: #ffff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+}
+.buybutton{
+    margin-top: 0.5cm;
+    margin-left: 9cm;
+    width: 15cm;
+    height: 1cm;
+    border-radius: 0.6em;
+    background: #f5d003;
+    border: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    color: #ffffff; 
+    cursor: pointer;
+}
+
+/* konten star-select */
+
+#plus, #minus{
+    width: 1cm;
+    height: 1cm;
+    z-index: 1;
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    background: #202020;
+    margin-top: 2.4cm;
+    text-align: center;
+    cursor: pointer;
+}
