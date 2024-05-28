@@ -1,0 +1,18 @@
+/* CSS Dasar */
+#imageContainer {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    display: none;
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.show {
+    display: block;
+}

@@ -1,0 +1,196 @@
+body {
+    background-image: url(bgawal.jpeg);
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+*{
+    margin: 0;
+    text-decoration: none;  
+    list-style-type: none;
+}
+
+header{
+    background: linear-gradient(#1d1b1b,#333333);
+    margin-right: 0px;
+    height: 80px; 
+    width: 100%;
+    align-items: center;
+    font-size: x-large;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.493), 0 2px 4px 0 rgba(0, 0, 0, 0.493);
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+
+/*
+konten header
+*/
+
+a{
+    color: white;
+}
+a:hover{
+    color: black;
+}
+.logo{
+    margin-top: 17px;
+    width: 45px;
+    height: 45px;
+}
+.cari2{
+    margin-top: 25px;
+    position: absolute;
+}
+.home{
+    margin-top: 20px;
+    font-size: larger;
+}
+.anjae{
+    display: none;
+}
+.search{
+    margin-top: 25px;
+    margin-left: 5px;
+    position: absolute;
+    text-align: left;
+    text-decoration: underline;
+    font-size: large;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.kontak{
+    margin-top: 20px;
+    font-size: larger;
+}
+.riwayat{
+    margin-top: 20px;
+    font-size: larger;
+}
+.logout{
+    margin-top: 20px;
+    font-size: larger;
+}
+
+
+
+
+
+
+
+
+/*
+konten slider
+*/
+
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    transition: transform 0.5s ease-in-out;
+}
+.active{
+    transform: translateX(0);
+}
+.img {
+    width: 25%;
+    border-radius: 6%;
+}
+
+.prev-btn{
+    width: 3%;
+    margin-left: 400px;
+    margin-top: 74px;
+    position: absolute;
+    cursor: pointer;
+}
+.prev-btn:hover{
+    content: url('previous2.png');
+}
+
+.next-btn{
+    width: 3%;
+    margin-left: 823px;
+    margin-top: 74px;
+    position: absolute;
+    cursor: pointer;
+}
+.next-btn:hover{
+    content: url('next2.png');
+}
+
+/*Konten Pilihan*/
+
+.populer{
+    width: 13%;
+    margin-left: 358px;
+    position: absolute;
+    cursor: pointer;
+}
+.populer:hover{
+    content: url('populerr.png');
+}
+.ml{
+    width: 13%;
+    margin-left: 550px;
+    position: absolute;
+    cursor: pointer;
+}
+.ml:hover{
+    content: url('ml1.png');
+}
+.ff{
+    width: 13%;
+    margin-left: 743px;
+    position: absolute;
+    cursor: pointer;
+}
+.ff:hover{
+    content: url('ff1.png');
+}
+
+
+
+/*konten pilihan*/
+.show {
+    display: block;
+}
+
+img{
+    display: none;
+    cursor: pointer;
+
+}
+.mainimg{
+    display: block;
+}
+#imageContainer{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+
+.searchmenu{
+    margin-top: 2.12cm;
+    position: absolute;
+    background: #333333ab;/*#333333*/
+    width: 33.43cm;
+    height: 15cm;   
+    z-index: 1;
+    display: none;
+}
