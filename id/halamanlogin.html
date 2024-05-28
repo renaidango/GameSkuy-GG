@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | GameSkuy</title>
+    <link rel="shortcut icon" href="logo1.ico">
+    <link rel="stylesheet" href="loginstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Konten Header -->
+    <header>
+        <div class="kontenttest">
+        <nav>
+            
+            <ul>
+                
+                <img class="logo" src="logo1.png" style="display: block;">
+               
+                
+
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+       
+
+        <div class="button" style="justify-content: center;">
+
+
+                    <h2>Login to Your Account</h2>
+                <form action="halamanlogin.php" method="POST" class="login">
+                    <?php echo $error; ?>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required><br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+                    <input type="submit" value="Login">
+                </form>
+
+
+        </div>
+
+
+</body>
+</html>
