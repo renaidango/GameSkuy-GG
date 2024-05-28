@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameSkuy | GG</title>
+    <link rel="shortcut icon" href="logo1.ico">
+    <link rel="stylesheet" href="topup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&display=swap" rel="stylesheet">
+<meta http-equiv="Cache-control" content="no-cache">
+</head>
+<body>
+    <!-- Konten Header -->
+    <header>
+        <div class="kontenttest">
+        <nav>
+            
+            <ul>
+                
+                <img class="logo" src="logo1.png" style="display: block;">
+                <li class="home"><a href="home.html">HOME</a></li>
+                <li class="riwayat"><a href="riyawat-topup.html">RIWAYAT TOPUP</a></li>
+                <li class="kontak"><a href="contact-us.html">CONTACT US</a></li>
+                <li class="logout"><a href="logout.php">LOG OUT</a></li>
+               
+                
+
+
+                <li class="cari"><img style="display: block;" id="showSearchButton" src="search6.png" class="cari2"></li>
+                <div id="searchContainer" class="anjae">
+                    <form action="">
+                        
+                        <input type="search" name="search" id="srch" placeholder="Mobile Legends, Free Fire" class="search">
+                </div>
+            </ul>
+        </nav>
+    </div>
+    </header><br>
+
+<!-- Image pilihan -->
+
+<img src="menupilihan1.png" alt="" style="width: 120px;height: 220px;position: absolute;margin-left: 14.7cm;">
+
+<div class="container">
+<!-- Form Topup Langkah Pertama -->
+
+<div class="langkah1">
+
+        <div class="tag1">
+            <h1 style="margin-top: 4px;margin-left: 0.65cm;color: #ffd900;position: absolute;z-index: 1;">1</h1>
+            <div class="tag2">
+            </div>
+            <div class="tag3">
+            </div>
+        </div>
+
+            <h2 style="margin-top: 10px;color: #ffd900;margin-left: 2cm;">Masukan Data Akun Kamu</h2>
+            <h2 style="color: #ffd900;position: absolute;margin-top: 1cm;margin-left: 1cm;">ID</h2>
+            <h2 style="color: #ffd900;position: absolute;margin-top: 1cm;margin-left: 7.5cm;">SERVER</h2>
+            <input type="number" maxlength="10" id="id" name="id" placeholder="KETIK ID" required style="margin-top: 2.2cm;margin-left: 28px;width: 225px;height: 25px;border: none;border-radius: 2em;">
+            <input type="number" maxlength="5" id="server" name="server" placeholder="KETIK SERVER" required style="margin-left: 12px;width: 250px;height: 25px;border: none;border-radius: 2em;">
+            <h5 id="errorMessage1" style="position: absolute;color: red; display: none; margin-left: 1.5cm;z-index: 1;">ID dapat diisi max 10 karakter.</h5>
+            <h5 id="errorMessage2" style="color: red; display: none; margin-left: 7.9cm;z-index: 1;"?>SERVER dapat diisi max 5 karakter.</h5>
+
+</div>
+<!-- Form Topup Langkah Kedua -->
+<div class="langkah2">
+
+        <div class="tag1">
+            <h1 style="margin-top: 4px;margin-left: 0.65cm;color: #ffd900;position: absolute;z-index: 1;">2</h1>
+            <div class="tag2">
+            </div>
+            <div class="tag3">
+            </div>
+        </div>
+
+        <h2 style="margin-top: 10px;color: #ffd900;margin-left: 2cm;">Pilih Nominal Topup</h2>
+
+            <div class="PilihanNominal">
+
+                <div class="nominal" data-nominal="1500" data-diamond="5" style="margin-top: 1cm;margin-left: 0.6cm;">
+                    <img src="diamond.png" style="width: 50px;height: 50px;margin-top: 1.2cm;">
+                    <h3>5 Diamond</h3>
+                    <h4>Rp.1,500</h4>
+                </div>
+
+                <div class="nominal" data-nominal="3000" data-diamond="10" style="margin-top: 1cm;margin-left: 4.06cm;">
+                    <img src="diamond.png" style="width: 50px;height: 50px;margin-top: 1.2cm;">
+                    <h3>10 Diamond</h3>
+                    <h4>Rp.3,000</h4>
+                </div>
+
+                <div class="nominal" data-nominal="4500" data-diamond="15" style="margin-top: 1cm;margin-left: 7.53cm;">
+                    <img src="diamond.png" style="width: 50px;height: 50px;margin-top: 1.2cm;">
+                    <h3>15 Diamond</h3>
+                    <h4>Rp.4,500</h4>
+                </div>
+
+                <div class="nominal" data-nominal="6000" data-diamond="20" style="margin-top: 1cm;margin-left: 11cm;">
+                    <img src="diamond.png" style="width: 50px;height: 50px;margin-top: 1.2cm;">
+                    <h3>20 Diamond</h3>
+                    <h4>Rp.6,000</h4>
+                </div>
+                
+
+
+
+
+                <div class="nominal" data-nominal="7500" data-diamond="25" style="margin-top: 5.8cm;margin-left: 0.6cm;">
+                    <img src="diamond.png" style="width: 50px;height: 50px;margin-top: 1.2cm;">
+                    <h3>25 Diamond</h3>
+                    <h4>Rp.7,500</h4>
+                </div>
+
+                <div class="nominal" data-nominal="9000" data-diamond="30" style="margin-top: 5.8cm;margin-left: 4.06cm;">
+                    <img src="diamond.png" style="width: 50px;height: 50px;margin-top: 1.2cm;">
+                    <h3>30 Diamond</h3>
+                    <h4>Rp.9,000</h4>
+                </div>
+
+                <div class="nominal" data-nominal="10500" data-diamond="35" style="margin-top: 5.8cm;margin-left: 7.53cm;">
+                    <img src="diamond.png" style="width: 50px;height: 50px;margin-top: 1.2cm;">
+                    <h3>35 Diamond</h3>
+                    <h4>Rp.10,500</h4>
+                </div>
+
+                <div class="nominal" data-nominal="12000" data-diamond="40" style="margin-top: 5.8cm;margin-left: 11cm;">
+                    <img src="diamond.png" style="width: 50px;height: 50px;margin-top: 1.2cm;">
+                    <h3>40 Diamond</h3>
+                    <h4>Rp.12,000</h4>
+                </div>
+
+
+
+
+
+
+                <div class="nominal" data-nominal="13500" data-diamond="45" style="margin-top: 10.6cm;margin-left: 0.6cm;">
+                    <img src="diamond.png" style="width: 50px;height: 50px;margin-top: 1.2cm;">
+                    <h3>45 Diamond</h3>
+                    <h4>Rp.13,500</h4>
+                </div>
+
+                <div class="nominal" data-nominal="15000" data-diamond="50" style="margin-top: 10.6cm;margin-left: 4.06cm;">
+                    <img src="diamond.png" style="width: 50px;height: 50px;margin-top: 1.2cm;">
+                    <h3>50 Diamond</h3>
+                    <h4>Rp.15,000</h4>
+                </div>
+
+            </div>
+
+</div>
+<!-- Form Topup Langkah Ketiga -->
+<div class="langkah3">
+
+    <div class="tag1">
+        <h1 style="margin-top: 4px;margin-left: 0.65cm;color: #ffd900;position: absolute;z-index: 1;">3</h1>
+        <div class="tag2">
+        </div>
+        <div class="tag3">
+        </div>
+    </div>
+
+    <h2 style="margin-top: 10px;color: #ffd900;margin-left: 2cm;">Pilih Metode Pembayaran</h2>
+
+    <div class="PilihanPembayaran">
+
+        <div class="pilihan">
+            <img class="check" src="check2.png" style="margin-top: 2.2cm;margin-left: 2.7cm;display: none;">
+            <img class="check" src="check2.png" style="margin-top: 2.2cm;margin-left: 5.8cm;display: none;">
+            <img class="check" src="check2.png" style="margin-top: 2.2cm;margin-left: 9.7cm;display: none;">
+            <img class="check" src="check2.png" style="margin-top: 2.2cm;margin-left: 12cm;display: none;">
+
+
+            <div class="pembayaran" style="margin-top: 1cm;margin-left: 1cm;">
+
+
+            
+            <div class="tagmethod1" style="margin-left: 3.8cm;">
+                <div class="tagmethod2">
+                    <h3 style="color: #ffd900;">E-WALLET</h3>
+                </div>
+            </div>
+
+            <!--Via Shopee-->
+
+            <div class="method" data-method="Via Shopee" data-fee="1000" style="margin-top: 1.1cm;margin-left: 1cm;position: absolute;">
+            <img src="shopee_logo.png" style="width: 10%;margin-top: 0cm;">
+            </div>
+
+            <!--Via Ovo-->
+
+            <div class="method" data-method="Via Ovo" data-fee="1000" style="margin-top: 1.5cm;margin-left: 3.2cm;position: absolute;">
+                <img src="ovo.png" style="width: 20%;margin-top: 0cm;">
+            </div>
+
+            <!--Via Dana-->
+
+            <div class="method" data-method="Via Dana" data-fee="1000" style="margin-top: 1.5cm;margin-left: 6.5cm;position: absolute;">
+                <img src="dana.jpeg" style="width: 40%;margin-top: 0cm;">
+            </div>
+
+            <!--Via Gopay-->
+
+            <div class="method" data-method="Via Gopay" data-fee="1000" style="margin-top: 1cm;margin-left: 10cm;position: absolute;">
+                <img src="gopay.png" style="width: 60%;margin-top: 0.2cm;">
+            </div>
+
+
+            </div>
+        </div>
+
+        <div class="pilihan">
+            <img class="check" src="check2.png" style="margin-top: 6.3cm;margin-left: 4cm;display: none;">
+            <img class="check" src="check2.png" style="margin-top: 6.3cm;margin-left: 8.3cm;display: none;">
+            <img class="check" src="check2.png" style="margin-top: 6.3cm;margin-left: 12.6cm;display: none;">
+
+
+            <div class="pembayaran" style="margin-top: 5cm;margin-left: 1cm;">
+
+            <div class="tagmethod1" style="margin-left: 3.8cm;">
+                <div class="tagmethod2">
+                    <h3 style="color: #ffd900;">M-BANKING</h3>
+                </div>
+            </div>
+
+            <div class="method" data-method="Via Mandiri" data-fee="1500" style="margin-top: 1.4cm;margin-left: 0.8cm;position: absolute;">
+            <img src="mandiri.png" style="width: 25%;margin-top: 0cm;">
+            </div>
+
+            <div class="method" data-method="Via BCA" data-fee="1500" style="margin-top: 1.56cm;margin-left: 4.8cm;position: absolute;">
+                <img src="bca.png" style="width: 35%;margin-top: 0cm;">
+            </div>
+
+            <div class="method" data-method="Via BRI" data-fee="1500" style="margin-top: 0.4cm;margin-left: 8.8cm;position: absolute;">
+                <img src="bri.png" style="width: 80%;margin-top: 0cm;">
+            </div>
+
+
+            </div>
+        </div>
+
+        <div class="pilihan">
+            <img class="check" src="check2.png" style="margin-top: 10.2cm;margin-left: 4.4cm;display: none;">
+            <img class="check" src="check2.png" style="margin-top: 10.2cm;margin-left: 8.6cm;display: none;">
+            <img class="check" src="check2.png" style="margin-top: 10.2cm;margin-left: 12.6cm;display: none;">
+
+
+            <div class="pembayaran" style="margin-top: 9cm;margin-left: 1cm;">
+
+            <div class="tagmethod1" style="margin-left: 3.8cm;">
+                <div class="tagmethod2">
+                    <h3 style="color: #ffd900;">CONVENIENCE STORE</h3>
+                </div>
+            </div>
+
+            <div class="method" data-method="Via Indomaret" data-fee="1000" style="margin-top: 1.4cm;margin-left: 0.8cm;position: absolute;">
+            <img src="indomaret.png" style="width: 25%;margin-top: 0cm;">
+            </div>
+
+            <div class="method" data-method="Via Alfamidi" data-fee="1000" style="margin-top: 1.56cm;margin-left: 4.7cm;position: absolute;">
+                <img src="alfamidi.png" style="width: 40%;margin-top: 0cm;">
+            </div>
+
+            <div class="method" data-method="Via Alfamart" data-fee="1000" style="margin-top: 1.3cm;margin-left: 8.8cm;position: absolute;">
+                <img src="alfamart.png" style="width: 80%;margin-top: 0cm;">
+            </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- Form Topup Langkah Keempat -->
+<div class="langkah4">
+
+    <div class="tag1">
+        <h1 style="margin-top: 4px;margin-left: 0.65cm;color: #ffd900;position: absolute;z-index: 1;">4</h1>
+        <div class="tag2">
+        </div>
+        <div class="tag3">
+        </div>
+    </div>
+
+    <h2 style="margin-top: 10px;color: #ffd900;margin-left: 2cm;">Beli!</h2>
+
+    <img src="menupilihan1.png" style="width: 20%;margin-top: 1cm;margin-left: 1cm;position: absolute;">
+
+    <div class="confirmation" style="z-index: 1;">
+    <p style="margin-top: 45px;margin-left: 5cm;"><span id="selected-diamond">- Diamonds</span></p>
+    <p style="margin-left: 5cm;"><span id="selected-nominal"></span></p>
+    <p style="margin-left: 5cm;"><span id="selected-fee"></span></p>
+    </div>
+
+    <div class="totalpembayaran">
+        <p>Total : <span id="totalharga"></span></p>
+    </div>
+    
+    <button id="buybutton" class="buybutton" type="submit">
+        <i class="fa fa-shopping-cart"></i> Pesan Sekarang!
+    </button>
+
+</div>
+
+
+</div>
+
+
+<div class="footer"></div>
+
+
+<script src="scripttopupml.js"></script>
+</body>
+</html>
